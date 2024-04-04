@@ -17,8 +17,8 @@ app.get("/tarundata",(req,res)=>{
         }
     })
     .then((response)=>{
-        const j=response.data;
-        res.json(j);
+        const x=response.data;
+        res.json(x);
     })
     
 })
